@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Maicon Monteiro">
+        <title>ENCRIPTADOR</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+    
+    </head>
+
+<body>
+    <main>
+        <header>
+            <div id="rodaPe">
+                
+                    <picture>
+                        <a href="https://www.alura.com.br/oracle-next-education"><img src="imagem/logo.png" class="media-object  img-responsive img-thumbnail"></a>
+                    </picture>
+                </a>
+                <div id="th1"><h2 class="typing-animation" id="titulo">Encriptador M0NT3IR0</h2></div>
+                </a>
+                
+                    <picture>
+                        <a href="https://www.alura.com.br/oracle-next-education"><img src="imagem/logo.png" class="media-object  img-responsive img-thumbnail"></a>                        
+                    </picture>
+            </div>
+        </header>
+        <div id="aviso">&nbsp;</div>
+            <div id="txt">
+                <div></div>
+                <div>
+                    <textarea class="input-texto" rows="15" id="entrada" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
+                </div>
+                <div>
+                    <textarea class="mensagem" rows="15" id="saida" placeholder="Saída Criptografada" disabled></textarea>
+                </div>
+                <div></div>
+            </div>
+            <div id="troca">
+                <div id="alerta">
+                    <div id="alerta1"><i class="fa-solid fa-circle-exclamation fa-2x"></i>
+                        </i><p>&nbsp;Melhores resultados, use apenas letras minúsculas e sem Acento!</p>
+                    </div>
+            <div id="botoes">
+                <button onclick="btnEncriptar()" class="encriptar">criptografar</button>
+                <button onclick="btnDesencriptar()" class="desencriptar">descriptografar</button>
+                <button onclick="bntCopiaECola()" class="copiarECola">copia e cola</button>
+                <button onclick="btnLimpar()" class="limpar">Limpar</button>
+            </div>
+    <footer id="meusLinks">
+        <picture>
+            <a href="https://www.instagram.com/maiconrmonteiro/"><img src="imagem/instagram.png" class="media-object  img-responsive img-thumbnail"></a>
+            <a href="https://www.linkedin.com/in/maicon-monteiro-5a5a38138/"><img src="imagem/linkdin.png" class="media-object  img-responsive img-thumbnail"></a>
+            <a href="https://github.com/maiconrmonteiro"><img src="imagem/github.png" class="media-object  img-responsive img-thumbnail"></a>
+        </picture>
+    </footer>
+
+    <script src="java.js"></script>
+
+    </main>
+    
+</body>
+
+</html>

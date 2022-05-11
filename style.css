@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body, textarea, button{
+    font-family: 'Share Tech Mono', monospace;
+    background: #87CEEB;
+}
+
+#rodaPe {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #00BFFF;
+    justify-items:center;
+    align-items: center;
+}
+
+.typing-animation {    
+    animation: blinkCursor 1s 400ms steps(20) normal infinite, typing 4s steps(20) normal 5s;
+}
+
+#titulo {
+    color: #191970;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-right: 2px solid rgba(255, 255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+    font-size: 1.5em;
+}
+
+@keyframes typing {
+    from{
+        width: 0em;
+    }
+    to {
+        width: 20.5rem;
+    }
+}
+
+@keyframes blinkCursor {
+    from{
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+#txt {
+    display: grid;
+    grid-template-columns:1fr 4fr 4fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+textarea {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 30px;
+    resize: none;
+    color: #191970;
+    outline: none;
+    background-image: url("imagem/boneco.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 5px;
+}
+
+#botoes{
+    text-align: center;  
+    margin-top: 30px;
+}
+
+button { 
+    background-color: #00BFFF;
+    font-weight: bold;
+    border: none;
+    color: #191970;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#alerta1 {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+#meusLinks {
+    padding: 30px 0 30px;
+    display: flex;
+    background: #576867;
+    justify-content: center;
+    grid-gap:10%;
+}
