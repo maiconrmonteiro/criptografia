@@ -53,7 +53,7 @@ function btnLimpar() {
 
 }
 
-function bntCopiaECola(){
+function btnCopiaECola(){
   let textoCopiado = document.getElementById("texto");
   textoCopiado.select();
   textoCopiado.setSelectionRange(0,99999)
