@@ -51,12 +51,12 @@ function btnLimpar() {
 
 }
 
+}
 
-function bntCopiaECola() {
-    var mensagem = document.querySelector(".mensagem");
-    var inputTexto = document.querySelector(".input-texto");
-    mensagem = mensagem.value
-    mensagem.value = "";
-    inputTexto.value = mensagem;
-
+function bntCopiaECola(){
+  let textoCopiado = document.getElementById("texto");
+  textoCopiado.select();
+  textoCopiado.setSelectionRange(0,99999)
+  document.execCommand("copy");
+  
 }
