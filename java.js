@@ -51,8 +51,6 @@ function btnLimpar() {
 
 }
 
-}
-
 function btnCopiaECola() {
     var mensagem = document.querySelector(".mensagem");
     var inputTexto = document.querySelector(".input-texto");
