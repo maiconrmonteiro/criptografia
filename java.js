@@ -51,10 +51,3 @@ function btnLimpar() {
 
 }
 
-function btnCopiaECola() {
-    var mensagem = document.querySelector(".mensagem");
-    var inputTexto = document.querySelector(".input-texto");
-    mensagem = mensagem.value
-    mensagem.value = "";
-    inputTexto.value = mensagem;
-}
