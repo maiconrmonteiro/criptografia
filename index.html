@@ -38,7 +38,7 @@
                     <textarea class="input-texto" rows="15" id="entrada" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
                 </div>
                 <div>
-                    <textarea class="mensagem" rows="15" id="saida" placeholder="Saída Criptografada" disabled></textarea>
+                    <textarea class="mensagem" rows="15" id="mensagem" placeholder="Saída Criptografada" disabled></textarea>
                 </div>
                 <div></div>
             </div>
@@ -50,7 +50,7 @@
             <div id="botoes">
                 <button onclick="btnEncriptar()" class="encriptar">criptografar</button>
                 <button onclick="btnDesencriptar()" class="desencriptar">descriptografar</button>
-                <button onclick="btnCopiaECola()" class="copiarECola">copia e cola</button>
+                <button id="idBotao" onclick="copiar()">copia texto</button>
                 <button onclick="btnLimpar()" class="limpar">Limpar</button>
             </div>
     <footer id="meusLinks">
@@ -62,6 +62,7 @@
     </footer>
 
     <script src="java.js"></script>
+    <script src="copiar.js"></script>
 
     </main>
     
