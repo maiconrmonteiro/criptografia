@@ -19,7 +19,7 @@ body, textarea, button{
 }
 
 #titulo {
-    color: #191970;
+    color: #0A3871;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     border-right: 2px solid rgba(255, 255, 255, 255);
@@ -61,7 +61,7 @@ textarea {
     height: 100%;
     margin-bottom: 30px;
     resize: none;
-    color: #191970;
+    color: 0A3871;
     outline: none;
     background-image: url("boneco.png");
     background-color: transparent;
